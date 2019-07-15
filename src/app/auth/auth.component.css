@@ -1,0 +1,23 @@
+.left{
+    background-image: url(../../assets/images/bg-login.jpg);
+    height:100vh;
+}
+a{
+    margin: 10px;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+
+ .b-white{
+    color: wheat
+}
+p{
+   text-indent: 20px;
+   color: bisque;
+   display: flex;
+   font-size: 20px;
+
+}

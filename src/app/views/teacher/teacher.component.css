@@ -1,0 +1,73 @@
+.expert-teacher{
+    background-image: url('.././../../assets/images/expect.png');
+    height: 550px;
+    padding-bottom: 500px;
+
+
+}
+.design{
+    width: 170px;
+    height: 170px;
+    background-color: darkslategray;
+    -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Safari 3-8 */
+    transform: rotate(135deg);
+    border: 2 solid transparent;
+    border-radius: 10px;
+    z-index: 200;
+
+
+  }
+  .border-4{
+    border-style:solid;
+     border-width: 4px;
+     border-radius: 20px;
+     color: #fff;
+    }
+ .redesign
+ {
+    -ms-transform: rotate(-135deg); /* IE 9 */
+    -webkit-transform: rotate(-135deg); /* Safari 3-8 */
+    transform: rotate(-135deg);
+    margin-top:30px;  width:110px;
+    height:110px;
+
+ }
+ .title{
+    height: 100px;
+  width:50%;
+  margin-left: 100px;
+    color:white;
+    position: relative;
+
+   margin-top: 80px;
+
+}
+ .text-bold {
+    font-weight: 700px;}
+    .bg-darkslategray{
+        background-color: rgb(49, 112, 112);
+        opacity: .9;
+    }
+    .style-btn{
+        width: 150px;
+        height: 60px;;
+    }
+    @media screen and (max-width:1300px) {
+        .design{
+            width: 150px;
+            height: 150px;
+            
+        
+          }
+          .redesign{
+              width: 90px;
+              height: 90px;
+          }
+          .title{
+            display: none;
+        }
+     
+     
+        }
+        

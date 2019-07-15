@@ -1,0 +1,31 @@
+
+.nav-item { margin-left: 40px;}
+.navbar-nav {width:max-content;margin-top: 5px;}
+.mobile-menu{
+    margin-left: 300px;
+  padding-left: 30px;
+
+}
+.large-fontsize{
+    font-size: 40px !important;
+    }
+@media screen and (max-width:1300px) {
+.mobile-menu{
+      position: fixed;
+      top:15px;
+      bottom:0px;
+      background-color: darkslategray;
+      left:auto;
+      width: 250px;
+      right: 0px;
+     -webkit-transition:  all 2ms ease-in-out;
+     transition: all 1ms linear ; }
+.tob_bar{
+      display: none;}
+.large-fontsize{
+        font-size:20px !important;
+        }
+  }
+
+
+  

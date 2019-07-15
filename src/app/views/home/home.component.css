@@ -1,0 +1,12 @@
+#scroll-top{
+    width: 70px;
+    height: 70px;
+    padding: 5px,8px;  
+    background-image:url('../../../assets/images/project.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    cursor: pointer;
+  }

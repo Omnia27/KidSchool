@@ -1,0 +1,39 @@
+.inputTransparent:-webkit-autofill,
+.inputTransparent:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+}
+input{
+    border-bottom-width: 3px;
+    margin-top: 10px;
+     border-bottom-color: orange !important;
+     margin-bottom: 30px;
+    -webkit-transition: all 2ms ease-in-out;
+    transition: all 2s  ease-in-out;
+    position: relative;
+}
+input [type="password" ], input [type="email"]:focus{
+  left:3px;
+   bottom: 5px;
+}
+.inputTransparent {
+   background-color: transparent;  
+   border-color: white;
+   box-shadow: 0 0 white;
+}
+.form-style{
+    margin-top: 10%;
+    color: rgb(221, 88, 39);
+    font-size: 20px;
+    font-weight: 100px;
+    margin-left: 20%;
+   margin-right: 20%;
+}
+.bgwhite{
+    color: white
+}
+ a{
+    margin-left:20px;
+}
+
+
+

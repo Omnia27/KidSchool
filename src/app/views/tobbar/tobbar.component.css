@@ -1,0 +1,19 @@
+.tob_bar{
+    background: rgb(121, 182, 182);
+    color: white;
+    padding: 10px;
+   
+}
+
+.social-icon{
+    float: left;  
+}
+ul li{
+display: inline;
+padding-left: 10px;
+}
+@media screen and (max-width:1300px) {
+ .tob_bar{
+     display: none;
+ }
+ }
