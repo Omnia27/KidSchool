@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { NotfoundComponent } from './views/notfound/notfound.component';
+import { TeacherComponent } from './views/teacher/teacher.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,9 @@ const routes: Routes = [
     
     path:'auth',loadChildren:'./auth/auth.module#AuthModule'
   }
-,{
+,
+
+{
   path:'**', component:NotfoundComponent
 }
 

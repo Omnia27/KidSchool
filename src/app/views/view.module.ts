@@ -8,11 +8,13 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { TeacherComponent } from './teacher/teacher.component';
 import { FeaturesareaComponent } from './featuresarea/featuresarea.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [HomeComponent,TobbarComponent,NavbarComponent,SlideshowComponent,TeacherComponent,FeaturesareaComponent, NotfoundComponent],
   imports: [
     CommonModule
+    , RouterModule
   ],
   exports:[HomeComponent,NotfoundComponent]
 })
